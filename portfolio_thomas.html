@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio d'Oyeniyi Thomas Junior — Développeur Full Stack, Data Scientist & étudiant M1 Big Data & IA à Abidjan. Laravel, Python, Android, ML. Disponible pour stages et missions freelance.">
+<meta name="keywords" content="développeur Abidjan, Laravel, Python, data science, machine learning, Android, freelance Côte d'Ivoire">
+<meta property="og:title" content="Oyeniyi Thomas Junior · Portfolio">
+<meta property="og:description" content="Développeur Full Stack & Data Scientist à Abidjan. Laravel · Python · Android · IA.">
+<meta property="og:type" content="website">
+<title>Oyeniyi Thomas Junior · Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div id="pre">
+  <div class="pre-laser" id="pre-laser"></div>
+  <div class="pre-box">
+    <div class="pre-titlebar">
+      <div class="d dr"></div><div class="d dg"></div><div class="d db"></div>
+      <span class="pre-ttl">otj_portfolio.exe</span>
+    </div>
+    <div class="pre-lines" id="pre-lines"></div>
+  </div>
+  <div class="pre-bigname" id="pre-name">
+    <span class="grd">OYENIYI THOMAS JUNIOR</span>
+  </div>
+  <div class="pre-sub">Informaticien · Big Data & IA · Abidjan</div>
+  <div class="pre-bar"><div class="pre-fill" id="pre-fill"></div></div>
+</div>
+
+<!-- BG -->
+<div class="bg-orb o1"></div>
+<div class="bg-orb o2"></div>
+<canvas id="pcv"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo" onclick="scrollTo(0,0)">OTJ.</div>
+  <ul class="nav-links">
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="#experience">Expérience</a></li>
+    <li><a href="#certs">Certifs</a></li>
+    <li><a href="#education">Formation</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div style="display:flex;align-items:center;gap:8px">
+    <button class="theme-btn" id="themeBtn">🌙</button>
+    <a href="#contact" class="nav-hire">Hire me ↗</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div>
+    <div class="hero-mono">init_portfolio(oyeniyi_thomas_junior)</div>
+    <h1 class="hero-name">
+      <span class="n1">Oyeniyi Thomas</span>
+      <span class="n2">Junior</span>
+    </h1>
+    <div class="hero-badge">
+      <span class="bdot"></span>
+      <span id="tw-wrap"></span><span id="tw-cursor"></span>
+      <noscript>Informaticien · Développeur Full Stack · Data Scientist</noscript>
+    </div>
+    <p class="hero-desc">
+      Passionné par le <strong>développement d'applications</strong>, l'<strong>analyse de données</strong>
+      et l'<strong>intelligence artificielle</strong>. Freelance depuis 2021, certifié Microsoft,
+      je construis des solutions numériques innovantes depuis Abidjan.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-v">Voir mes projets →</a>
+      <a href="#contact" class="btn-o">Me contacter</a>
+      <button class="btn-dl" onclick="dlCV()">⬇ Télécharger CV</button>
+    </div>
+    <div class="hero-stats">
+      <div class="hst"><div class="hst-n">7+</div><div class="hst-l">Projets</div></div>
+      <div class="hst"><div class="hst-n">4</div><div class="hst-l">Certifs</div></div>
+      <div class="hst"><div class="hst-n">3</div><div class="hst-l">Expériences</div></div>
+      <div class="hst"><div class="hst-n">M1</div><div class="hst-l">Big Data·IA</div></div>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <div class="ph-wrap">
+      <div class="ph-blob"></div>
+      <div class="tf tf1">Python 🐍</div>
+      <div class="tf tf2">Laravel ⚡</div>
+      <div class="tf tf3">ML / IA 🧠</div>
+      <div class="tf tf4">Android 📱</div>
+      <div class="ph-ring"><div class="ph-inner">
+        <img class="ph-img" src="thomas.jpg" alt="Oyeniyi Thomas Junior"/>
+        <div class="ph-scan"></div>
+      </div></div>
+      <div class="ph-corner">M1 Big Data · IA</div>
+      <div class="ph-dot"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="abt-grid">
+    <div class="rvl">
+      <div class="sey">À propos</div><h2 class="sh">Curieux, rigoureux<br>et motivé.</h2><div class="sbar"></div>
+      <p class="ap">Étudiant en <strong>Master 1 Big Data & Intelligence Artificielle</strong> à l'IUA Abidjan, je combine une solide formation académique avec une expérience concrète sur des projets réels.</p>
+      <p class="ap">Déterminé et autonome, ma polyvalence me permet d'intervenir du <strong>backend au frontend</strong>, en passant par la <strong>data science</strong>, le mobile et les services web.</p>
+      <p class="ap">Titulaire d'une <strong>Licence 3 MIAGE</strong>, <strong>Développeur Freelance depuis 2021</strong> et certifié par <strong>Microsoft, UC Irvine & University of Minnesota</strong>.</p>
+      <div class="chips">
+        <span class="chip">🔥 Technologies & innovation</span><span class="chip">⚽ Sport & gaming</span>
+        <span class="chip">📚 Apprentissage continu</span><span class="chip">✈️ Voyages</span>
+        <span class="chip">🤝 Engagement associatif</span><span class="chip">💡 Entrepreneuriat</span>
+      </div>
+    </div>
+    <div class="acards rvr">
+      <div class="acard ac1"><div class="aci">🎓</div><div><div class="ac-t">Formation académique</div><div class="ac-s">M1 Big Data & IA · IUA Abidjan</div></div></div>
+      <div class="acard ac2"><div class="aci">💻</div><div><div class="ac-t">Développeur Freelance</div><div class="ac-s">Laravel · Python · Java · depuis 2021</div></div></div>
+      <div class="acard ac3"><div class="aci">🧠</div><div><div class="ac-t">Intelligence Artificielle</div><div class="ac-s">ML · Scikit-learn · Certifié Microsoft 2026</div></div></div>
+      <div class="acard ac4"><div class="aci">🚀</div><div><div class="ac-t">Stage IUA en cours</div><div class="ac-s">Service Informatique · Temps plein · 2025</div></div></div>
+      <div class="acard ac5"><div class="aci">🌍</div><div><div class="ac-t">Abidjan, Côte d'Ivoire</div><div class="ac-s">Permis AB · Disponible immédiatement</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="rv"><div class="sey">Compétences</div><h2 class="sh">Stack technique</h2><div class="sbar"></div></div>
+  <div class="sk-filter rv">
+    <button class="skf a" data-cat="all">Tout</button>
+    <button class="skf" data-cat="web">Web</button>
+    <button class="skf" data-cat="back">Backend</button>
+    <button class="skf" data-cat="data">Data & IA</button>
+    <button class="skf" data-cat="mob">Mobile</button>
+    <button class="skf" data-cat="tools">Outils</button>
+  </div>
+  <div class="sk-grid">
+    <div class="skc rv" data-cat="web"><div class="sk-hd"><div class="sk-i siv">🌐</div><div class="sk-lbl">Développement Web</div></div><div class="sk-tags"><span class="st stv">HTML5</span><span class="st stv">CSS3</span><span class="st stv">JavaScript</span><span class="st stv">PHP</span><span class="st stv">Laravel</span><span class="st stv">Bootstrap</span><span class="st stv">Tailwind</span><span class="st stv">WordPress</span></div><div class="sk-prog"><div class="sk-pbar"><div class="sk-pfill pfv" data-w="88"></div></div><span class="sk-pct">88%</span></div></div>
+    <div class="skc rv" data-cat="back"><div class="sk-hd"><div class="sk-i sic">⚙️</div><div class="sk-lbl">Backend & Services</div></div><div class="sk-tags"><span class="st stc">Java</span><span class="st stc">Jakarta EE</span><span class="st stc">REST</span><span class="st stc">SOAP</span><span class="st stc">Streamlit</span><span class="st stc">Postman</span></div><div class="sk-prog"><div class="sk-pbar"><div class="sk-pfill pfc" data-w="78"></div></div><span class="sk-pct">78%</span></div></div>
+    <div class="skc rv" data-cat="data"><div class="sk-hd"><div class="sk-i sir">🧠</div><div class="sk-lbl">Data Science & IA</div></div><div class="sk-tags"><span class="st str">Python</span><span class="st str">Pandas</span><span class="st str">NumPy</span><span class="st str">Scikit-learn</span><span class="st str">Anaconda</span><span class="st str">Random Forest</span></div><div class="sk-prog"><div class="sk-pbar"><div class="sk-pfill pfr" data-w="75"></div></div><span class="sk-pct">75%</span></div></div>
+    <div class="skc rv" data-cat="data"><div class="sk-hd"><div class="sk-i sig">🗄️</div><div class="sk-lbl">Bases de données</div></div><div class="sk-tags"><span class="st stg">MySQL</span><span class="st stg">SQL Server</span><span class="st stg">SQLite</span><span class="st stg">phpMyAdmin</span></div><div class="sk-prog"><div class="sk-pbar"><div class="sk-pfill pfg" data-w="82"></div></div><span class="sk-pct">82%</span></div></div>
+    <div class="skc rv" data-cat="mob"><div class="sk-hd"><div class="sk-i sigr">📱</div><div class="sk-lbl">Mobile Android</div></div><div class="sk-tags"><span class="st stgr">Java Android</span><span class="st stgr">SQLite</span><span class="st stgr">XML UI</span></div><div class="sk-prog"><div class="sk-pbar"><div class="sk-pfill pfgr" data-w="72"></div></div><span class="sk-pct">72%</span></div></div>
+    <div class="skc rv" data-cat="tools"><div class="sk-hd"><div class="sk-i siv">🛠️</div><div class="sk-lbl">Outils & Env.</div></div><div class="sk-tags"><span class="st stv">Git</span><span class="st stv">GitHub</span><span class="st stv">VS Code</span><span class="st stv">Eclipse</span><span class="st stv">WAMP</span><span class="st stv">Herd</span><span class="st stv">Figma</span><span class="st stv">Canva</span></div><div class="sk-prog"><div class="sk-pbar"><div class="sk-pfill pfv" data-w="85"></div></div><span class="sk-pct">85%</span></div></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="rv"><div class="sey">Services</div><h2 class="sh">Ce que je propose</h2><div class="sbar"></div></div>
+  <div class="svc-grid">
+    <div class="svc sv1 rv"><span class="svc-ico">🌐</span><div class="svc-name">Développement Web</div><div class="svc-desc">Sites vitrine, apps Laravel/PHP, e-commerce et back-offices sur mesure.</div><span class="svc-tag">Laravel · PHP · MySQL</span></div>
+    <div class="svc sv2 rv"><span class="svc-ico">📱</span><div class="svc-name">Applications Mobile</div><div class="svc-desc">Applications Android natives en Java avec SQLite et interface intuitive.</div><span class="svc-tag">Java · Android · SQLite</span></div>
+    <div class="svc sv3 rv"><span class="svc-ico">🧠</span><div class="svc-name">Data Science & IA</div><div class="svc-desc">Modèles ML, analyse de données et dashboards Streamlit interactifs.</div><span class="svc-tag">Python · Scikit-learn</span></div>
+    <div class="svc sv4 rv"><span class="svc-ico">⚙️</span><div class="svc-name">Services Web (API)</div><div class="svc-desc">Conception et intégration d'APIs REST et SOAP pour vos systèmes.</div><span class="svc-tag">REST · SOAP · Java EE</span></div>
+    <div class="svc sv5 rv"><span class="svc-ico">🗄️</span><div class="svc-name">Base de données</div><div class="svc-desc">Conception, optimisation et administration MySQL et SQL Server.</div><span class="svc-tag">MySQL · SQL Server</span></div>
+    <div class="svc sv6 rv"><span class="svc-ico">🎨</span><div class="svc-name">UI/UX Design</div><div class="svc-desc">Maquettes et prototypes d'interfaces avec Figma, design responsive.</div><span class="svc-tag">Figma · Canva</span></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="rv"><div class="sey">Réalisations</div><h2 class="sh">Projets informatiques</h2><div class="sbar"></div></div>
+  <div class="pf-row rv">
+    <button class="pf a" data-pcat="all">Tous</button>
+    <button class="pf" data-pcat="web">Web</button>
+    <button class="pf" data-pcat="mob">Mobile</button>
+    <button class="pf" data-pcat="ia">IA / Data</button>
+    <button class="pf" data-pcat="fin">Fintech</button>
+  </div>
+  <div class="p-slider"><div class="p-track" id="ptrack">
+    <div class="pj" data-pcat="web"><div class="pj-glow"></div><div class="pj-top"><span class="pj-cat">WEB</span><div class="pj-ico">🚌</div></div><div class="pj-title">Réservation de tickets d'autocars</div><div class="pj-desc">Système en ligne pour acheter et gérer des tickets de transport interurbain avec gestion complète des trajets.</div><div class="pj-stack"><span class="pj-tag">PHP</span><span class="pj-tag">Laravel</span><span class="pj-tag">MySQL</span><span class="pj-tag">Bootstrap</span></div></div>
+    <div class="pj" data-pcat="web"><div class="pj-glow"></div><div class="pj-top"><span class="pj-cat">WEB</span><div class="pj-ico">💈</div></div><div class="pj-title">Gestion de salon de coiffure</div><div class="pj-desc">Application complète : rendez-vous, gestion clients, services et dashboard admin avec statistiques.</div><div class="pj-stack"><span class="pj-tag">PHP</span><span class="pj-tag">Laravel</span><span class="pj-tag">MySQL</span><span class="pj-tag">JavaScript</span></div></div>
+    <div class="pj" data-pcat="web"><div class="pj-glow"></div><div class="pj-top"><span class="pj-cat">E-COMMERCE</span><div class="pj-ico">🛒</div></div><div class="pj-title">Site e-commerce</div><div class="pj-desc">Plateforme de vente complète : catalogue, panier, commandes et back-office d'administration.</div><div class="pj-stack"><span class="pj-tag">PHP</span><span class="pj-tag">MySQL</span><span class="pj-tag">HTML/CSS</span><span class="pj-tag">JavaScript</span></div></div>
+    <div class="pj" data-pcat="ia"><div class="pj-glow"></div><div class="pj-top"><span class="pj-cat">IA · DATA</span><div class="pj-ico">🧠</div></div><div class="pj-title">Prédiction de performance d'entreprise</div><div class="pj-desc">Modèle ML (Random Forest) prédisant les performances financières. Interface Streamlit interactive.</div><div class="pj-stack"><span class="pj-tag">Python</span><span class="pj-tag">Scikit-learn</span><span class="pj-tag">Pandas</span><span class="pj-tag">Streamlit</span></div></div>
+    <div class="pj" data-pcat="fin"><div class="pj-glow"></div><div class="pj-top"><span class="pj-cat">FINTECH</span><div class="pj-ico">🏫</div></div><div class="pj-title">Paiement des frais de scolarité</div><div class="pj-desc">Gestion et paiement en ligne des frais scolaires avec suivi et génération automatique de reçus.</div><div class="pj-stack"><span class="pj-tag">PHP</span><span class="pj-tag">Laravel</span><span class="pj-tag">MySQL</span></div></div>
+    <div class="pj" data-pcat="mob"><div class="pj-glow"></div><div class="pj-top"><span class="pj-cat">MOBILE</span><div class="pj-ico">📱</div></div><div class="pj-title">App mobile de devis informatique</div><div class="pj-desc">Application Android pour freelances IT : devis pros, gestion clients, suivi missions, dual admin/client.</div><div class="pj-stack"><span class="pj-tag">Java</span><span class="pj-tag">Android</span><span class="pj-tag">SQLite</span><span class="pj-tag">XML</span></div></div>
+    <div class="pj" data-pcat="web"><div class="pj-glow"></div><div class="pj-top"><span class="pj-cat">AGRI · WEB</span><div class="pj-ico">🌾</div></div><div class="pj-title">Gestion Agricole complète</div><div class="pj-desc">Plateforme complète de gestion agricole : suivi des parcelles, cultures, récoltes, intrants et main-d'œuvre. Back-office Filament avec tableaux de bord analytiques et exports de rapports.</div><div class="pj-stack"><span class="pj-tag">Laravel</span><span class="pj-tag">Filament</span><span class="pj-tag">MySQL</span><span class="pj-tag">PHP</span><span class="pj-tag">Livewire</span></div></div>
+  </div></div>
+  <div class="p-nav rv">
+    <button class="p-btn" id="pprev">←</button>
+    <button class="p-btn" id="pnext">→</button>
+    <div class="p-dots" id="pdots"></div>
+    <span id="p-count">1 / 7</span>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+  <div class="rv"><div class="sey">Chiffres clés</div><h2 class="sh">En quelques chiffres</h2><div class="sbar"></div></div>
+  <div class="stats-grid">
+    <div class="stat-box rv"><div class="stat-n" data-target="7">0</div><div class="stat-l">Projets réalisés</div></div>
+    <div class="stat-box rv"><div class="stat-n" data-target="4">0</div><div class="stat-l">Certifications</div></div>
+    <div class="stat-box rv"><div class="stat-n" data-target="5">0</div><div class="stat-l">Années d'expérience</div></div>
+    <div class="stat-box rv"><div class="stat-n" data-target="10">0</div><div class="stat-l">Technologies</div></div>
+    <div class="stat-box rv"><div class="stat-n" data-target="3">0</div><div class="stat-l">Expériences pro</div></div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="rv"><div class="sey">Parcours professionnel</div><h2 class="sh">Expériences</h2><div class="sbar"></div></div>
+  <div class="exp-grid">
+    <div class="tl rvl">
+      <div class="tle"><div class="tl-dot dv"></div><div class="tl-date" style="color:var(--v)">Sept. 2025 — Aujourd'hui</div><div class="tl-role">Stagiaire Service Informatique</div><div class="tl-type">TEMPS PLEIN · SUR SITE</div><div class="tl-co" style="color:var(--c)">Institut Universitaire d'Abidjan (IUA)</div><ul class="tl-tasks"><li>Création et gestion des comptes utilisateurs sur les plateformes numériques</li><li>Administration des comptes Microsoft 365 et outils collaboratifs</li><li>Gestion et organisation des données étudiants</li><li>Création et gestion des badges étudiants</li><li>Installation, configuration et support logiciels</li></ul></div>
+      <div class="tle"><div class="tl-dot dc"></div><div class="tl-date" style="color:var(--c)">Sept. 2021 — Juil. 2026</div><div class="tl-role">Développeur Applications</div><div class="tl-type">FREELANCE · INDÉPENDANT</div><div class="tl-co" style="color:var(--g)">Auto-entrepreneur · Abidjan</div><ul class="tl-tasks" style="--v:var(--c)"><li style="--v:var(--c)">Développement d'applications web avec Laravel & PHP</li><li>Développement mobile Android en Java</li><li>Data Science & Machine Learning avec Python</li><li>Intégration de services REST/SOAP</li></ul></div>
+      <div class="tle"><div class="tl-dot dg2"></div><div class="tl-date" style="color:var(--g)">Juin 2021 — Aujourd'hui</div><div class="tl-role">Assistant</div><div class="tl-type">ALTERNANCE · SUR SITE</div><div class="tl-co" style="color:var(--gr)">Nutri Food Industry · Abidjan</div><ul class="tl-tasks"><li>Gestion et suivi des stocks de marchandises</li><li>Réalisation de l'inventaire et contrôle des livraisons</li><li>Enregistrement des entrées et sorties de matières premières</li></ul></div>
+    </div>
+    <div class="exp-panel rvr">
+      <div class="ep"><div class="ep-title">Ce que j'apporte</div>
+        <div class="ep-row"><div class="ep-bul bv"></div><div class="ep-txt"><strong>Rigueur & autonomie</strong> — Capable de mener un projet de bout en bout.</div></div>
+        <div class="ep-row"><div class="ep-bul bc"></div><div class="ep-txt"><strong>Polyvalence</strong> — Frontend, backend, mobile, IA : je m'adapte.</div></div>
+        <div class="ep-row"><div class="ep-bul br"></div><div class="ep-txt"><strong>Expérience freelance</strong> — Livraison pro depuis 2021.</div></div>
+        <div class="ep-row"><div class="ep-bul bg3"></div><div class="ep-txt"><strong>Certifications</strong> — Microsoft, UC Irvine, Minnesota.</div></div>
+      </div>
+      <div class="ep"><div class="ep-title">Langues</div>
+        <div class="lang-row"><div class="lang-hd"><span class="lang-n">Français</span><span class="lang-l">Courant</span></div><div class="lang-bar"><div class="lf lf1" data-w="95"></div></div></div>
+        <div class="lang-row"><div class="lang-hd"><span class="lang-n">Anglais</span><span class="lang-l">Opérationnel · UC Irvine</span></div><div class="lang-bar"><div class="lf lf2" data-w="60"></div></div></div>
+      </div>
+      <div class="ep"><div class="ep-title">Infos pratiques</div>
+        <div class="ep-row"><div class="ep-bul bv"></div><div class="ep-txt"><strong>Localisation</strong> — Abidjan, Côte d'Ivoire</div></div>
+        <div class="ep-row"><div class="ep-bul bc"></div><div class="ep-txt"><strong>Permis</strong> — Catégorie AB</div></div>
+        <div class="ep-row"><div class="ep-bul bg3"></div><div class="ep-txt"><strong>Disponibilité</strong> — Immédiate</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certs">
+  <div class="rv"><div class="sey">Certifications</div><h2 class="sh">Diplômes & certifications</h2><div class="sbar"></div></div>
+  <div class="c-grid">
+    <div class="cert rv"><div class="cert-org"><div class="org-dot oms"></div>MICROSOFT</div><div class="cert-name">Présentation des concepts de Machine Learning</div><div class="cert-date">Émise juil. 2026</div><div class="cert-badge">✓ Certifié</div></div>
+    <div class="cert rv"><div class="cert-org"><div class="org-dot ouc"></div>UNIVERSITY OF CALIFORNIA, IRVINE</div><div class="cert-name">Essential English for University Success</div><div class="cert-date">ID : SAEFPW29Z2F8</div><div class="cert-badge">✓ Certifié</div></div>
+    <div class="cert rv"><div class="cert-org"><div class="org-dot omn"></div>UNIVERSITY OF MINNESOTA</div><div class="cert-name">Creative Problem Solving</div><div class="cert-date">Émise nov. 2022 · ID : 7HVN8ENFWER5</div><div class="cert-badge">✓ Certifié</div></div>
+    <div class="cert rv"><div class="cert-org"><div class="org-dot odt"></div>DEEP TEACHING SOLUTIONS</div><div class="cert-name">Apprendre comment apprendre (ACA)</div><div class="cert-date">Émise nov. 2022 · ID : W2N3F68AF99S</div><div class="cert-badge">✓ Certifié</div></div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="rv"><div class="sey">Formation</div><h2 class="sh">Parcours académique</h2><div class="sbar"></div></div>
+  <div class="edu-list">
+    <div class="edu-e rv"><span class="edu-yr">2025–2026</span><div><div class="edu-deg">Master 1 Big Data & Intelligence Artificielle (GI)</div><div class="edu-sch">Institut Universitaire d'Abidjan</div></div><span class="edu-bdg eb-cur">En cours</span></div>
+    <div class="edu-e rv"><span class="edu-yr">2024–2025</span><div><div class="edu-deg">Licence 3 MIAGE</div><div class="edu-sch">Institut Universitaire d'Abidjan</div></div><span class="edu-bdg eb-ok">✓ Obtenu</span></div>
+    <div class="edu-e rv"><span class="edu-yr">2023–2024</span><div><div class="edu-deg">Licence 2 MIAGE</div><div class="edu-sch">Institut Universitaire d'Abidjan</div></div></div>
+    <div class="edu-e rv"><span class="edu-yr">2022–2023</span><div><div class="edu-deg">Licence 1 MIAGE</div><div class="edu-sch">Institut Universitaire d'Abidjan</div></div></div>
+    <div class="edu-e rv"><span class="edu-yr">2021–2022</span><div><div class="edu-deg">Baccalauréat Série D</div><div class="edu-sch">Collège Saint Foi</div></div></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="rv">
+    <div class="ct-card">
+      <div class="ct-big">Travaillons<br><span>ensemble.</span></div>
+      <p class="ct-sub">Disponible pour des stages, missions freelance ou opportunités d'emploi.</p>
+      <div class="ct-links">
+        <a href="mailto:Thomasjunior451@gmail.com" class="ct-link">✉️ Thomasjunior451@gmail.com</a>
+        <a href="tel:+2250778486875" class="ct-link">📱 +225 07-78-48-68-75</a>
+        <div class="ct-link">📍 Abidjan, Côte d'Ivoire</div>
+      </div>
+      <div class="cf">
+        <input class="cf-input" type="text" id="cf-name" placeholder="Votre nom" maxlength="80" autocomplete="name"/>
+        <input class="cf-input" type="email" id="cf-email" placeholder="Votre email" maxlength="120" autocomplete="email"/>
+        <textarea class="cf-input" id="cf-msg" placeholder="Votre message..." maxlength="2000"></textarea>
+        <!-- honeypot anti-spam : doit rester vide -->
+        <input type="text" id="cf-hp" name="website" style="display:none" tabindex="-1" autocomplete="off"/>
+        <button class="cf-btn" onclick="sendMsg()">Envoyer le message →</button>
+        <div class="cf-ok" id="cf-ok">✓ Message envoyé ! Je vous répondrai très bientôt.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>// Conçu & développé par <span>Oyeniyi Thomas Junior</span> · 2025–2026 · Abidjan</footer>
+<button id="btt" onclick="scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+window.addEventListener('load', function() {
+
+/* ═══ PRELOADER ═══ */
+(function(){
+  var lines = [
+    {t:200, h:'<span style="color:#7C3AED">$</span> <span style="color:#06B6D4">node</span> portfolio.js <span style="color:#10B981">--v7</span>'},
+    {t:420, h:'<span style="color:#10B981">✓</span> Modules chargés <span style="color:#06B6D4">[████████] 100%</span>'},
+    {t:620, h:'<span style="color:#10B981">✓</span> Stack: <span style="color:#F59E0B">Python</span> · <span style="color:#7C3AED">Laravel</span> · <span style="color:#06B6D4">Java</span> · <span style="color:#F43F5E">Android</span>'},
+    {t:820, h:'<span style="color:#10B981">✓</span> Certifs: <span style="color:#06B6D4">Microsoft</span> · <span style="color:#7C3AED">UC Irvine</span>'},
+    {t:1020,h:'<span style="color:#10B981">✓</span> Portfolio <span style="color:#7C3AED">v7.0</span> — <span style="color:#10B981">READY ✓</span>'},
+  ];
+  var body = document.getElementById('pre-lines');
+  var fill = document.getElementById('pre-fill');
+  if(!body) return;
+
+  // Progress bar
+  var pct = 0;
+  var fillInt = setInterval(function(){
+    pct = Math.min(pct + 1.5, 100);
+    fill.style.width = pct + '%';
+    if(pct >= 100) clearInterval(fillInt);
+  }, 30);
+
+  // Laser
+  var laser = document.getElementById('pre-laser');
+  if(laser){
+    var lp = 0;
+    var laserInt = setInterval(function(){
+      lp += 0.8;
+      laser.style.top = lp + '%';
+      if(lp > 95) laser.style.opacity = '0';
+      if(lp >= 100) clearInterval(laserInt);
+    }, 20);
+  }
+
+  // Lines
+  lines.forEach(function(l){
+    setTimeout(function(){
+      var d = document.createElement('div');
+      d.className = 'pre-line';
+      d.innerHTML = l.h;
+      body.appendChild(d);
+      setTimeout(function(){ d.classList.add('show'); }, 20);
+    }, l.t);
+  });
+
+  // Name reveal
+  setTimeout(function(){
+    var n = document.getElementById('pre-name');
+    if(n) n.classList.add('show');
+  }, 1350);
+
+  // Exit
+  setTimeout(function(){
+    var p = document.getElementById('pre');
+    if(!p) return;
+    p.style.transition = 'opacity .5s ease';
+    p.style.opacity = '0';
+    setTimeout(function(){ p.style.display = 'none'; }, 520);
+  }, 2600);
+})();
+
+/* ═══ PARTICLES ═══ */
+(function(){
+  var cv = document.getElementById('pcv');
+  if(!cv) return;
+  var ctx = cv.getContext('2d');
+  var w, h, pts, mx = -999, my = -999;
+  function resize(){ w = cv.width = innerWidth; h = cv.height = innerHeight; }
+  function mkp(){ return { x:Math.random()*w, y:Math.random()*h, r:Math.random()*.8+.2, vx:(Math.random()-.5)*.18, vy:(Math.random()-.5)*.18, a:Math.random()*.18+.05, c:Math.random()<.55?'124,58,237':'6,182,212' }; }
+  function init(){ pts = Array.from({length:55}, mkp); }
+  document.addEventListener('mousemove', function(e){ mx=e.clientX; my=e.clientY; }, {passive:true});
+  function draw(){
+    ctx.clearRect(0,0,w,h);
+    pts.forEach(function(p){
+      var dx=mx-p.x, dy=my-p.y, d=Math.sqrt(dx*dx+dy*dy);
+      if(d<130){ p.x-=dx*.004; p.y-=dy*.004; }
+      p.x+=p.vx; p.y+=p.vy;
+      if(p.x<0) p.x=w; if(p.x>w) p.x=0;
+      if(p.y<0) p.y=h; if(p.y>h) p.y=0;
+      ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+      ctx.fillStyle='rgba('+p.c+','+p.a+')'; ctx.fill();
+    });
+    for(var i=0;i<pts.length;i++) for(var j=i+1;j<pts.length;j++){
+      var ddx=pts[i].x-pts[j].x, ddy=pts[i].y-pts[j].y, dd=Math.sqrt(ddx*ddx+ddy*ddy);
+      if(dd<85){ ctx.beginPath(); ctx.moveTo(pts[i].x,pts[i].y); ctx.lineTo(pts[j].x,pts[j].y); ctx.strokeStyle='rgba(124,58,237,'+(0.03*(1-dd/85))+')'; ctx.lineWidth=.4; ctx.stroke(); }
+    }
+    requestAnimationFrame(draw);
+  }
+  resize(); init(); draw();
+  window.addEventListener('resize', function(){ resize(); init(); });
+})();
+
+/* ═══ TYPEWRITER ═══ */
+(function(){
+  var el = document.getElementById('tw-wrap');
+  if(!el) return;
+  var roles = ['Informaticien','Développeur Full Stack','Data Scientist','Développeur Laravel','Développeur Android','Étudiant M1 Big Data & IA'];
+  var ri=0, ci=0, del=false;
+  function tick(){
+    var word=roles[ri];
+    if(!del){ el.textContent=word.slice(0,++ci); if(ci>=word.length){del=true;setTimeout(tick,1800);return;} }
+    else{ el.textContent=word.slice(0,--ci); if(ci<=0){del=false;ri=(ri+1)%roles.length;} }
+    setTimeout(tick, del?55:95);
+  }
+  setTimeout(tick, 3200);
+})();
+
+/* ═══ THEME ═══ */
+(function(){
+  var btn = document.getElementById('themeBtn');
+  if(!btn) return;
+  btn.addEventListener('click', function(){
+    var on = document.body.classList.toggle('light');
+    btn.textContent = on ? '☀️' : '🌙';
+  });
+})();
+
+/* ═══ CAROUSEL ═══ */
+(function(){
+  var track = document.getElementById('ptrack');
+  if(!track) return;
+  var allCards = Array.from(track.querySelectorAll('.pj'));
+  if(!allCards.length) return;
+  var dotsEl = document.getElementById('pdots');
+  var countEl = document.getElementById('p-count');
+  var cur = 0, autoTimer, visible = allCards.slice();
+
+  function buildDots(n){
+    if(!dotsEl) return [];
+    dotsEl.innerHTML = '';
+    return Array.from({length:n}, function(_,i){
+      var d = document.createElement('div');
+      d.className = 'p-dot'+(i===0?' a':'');
+      d.addEventListener('click', function(){ goTo(i); resetAuto(); });
+      dotsEl.appendChild(d);
+      return d;
+    });
+  }
+  var dots = buildDots(visible.length);
+
+  function goTo(idx){
+    cur = Math.max(0, Math.min(idx, visible.length-1));
+    var firstCard = visible[0];
+    var cw = firstCard ? (firstCard.offsetWidth || 300) + 18 : 318;
+    track.style.transform = 'translateX(-'+(cur*cw)+'px)';
+    dots.forEach(function(d,i){ d.className='p-dot'+(i===cur?' a':''); });
+    if(countEl) countEl.textContent = (cur+1)+' / '+visible.length;
+  }
+  function resetAuto(){ clearInterval(autoTimer); autoTimer=setInterval(function(){ goTo((cur+1)%visible.length); },4000); }
+
+  var prevBtn = document.getElementById('pprev');
+  var nextBtn = document.getElementById('pnext');
+  if(prevBtn) prevBtn.addEventListener('click', function(){ goTo(cur-1); resetAuto(); });
+  if(nextBtn) nextBtn.addEventListener('click', function(){ goTo(cur+1); resetAuto(); });
+
+  var tx=0;
+  track.addEventListener('touchstart',function(e){tx=e.touches[0].clientX;},{passive:true});
+  track.addEventListener('touchend',function(e){var d=tx-e.changedTouches[0].clientX;if(Math.abs(d)>44){goTo(d>0?cur+1:cur-1);resetAuto();}},{passive:true});
+
+  document.querySelectorAll('.pf').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('.pf').forEach(function(b){b.classList.remove('a');});
+      this.classList.add('a');
+      var cat = this.getAttribute('data-pcat');
+      allCards.forEach(function(c){ c.style.display=(cat==='all'||c.getAttribute('data-pcat')===cat)?'':'none'; });
+      visible = allCards.filter(function(c){ return c.style.display!=='none'; });
+      cur=0; track.style.transform='translateX(0)';
+      dots = buildDots(visible.length);
+      if(countEl) countEl.textContent='1 / '+visible.length;
+      resetAuto();
+    });
+  });
+  resetAuto();
+})();
+
+/* ═══ SKILL FILTER ═══ */
+(function(){
+  document.querySelectorAll('.skf').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('.skf').forEach(function(b){b.classList.remove('a');});
+      this.classList.add('a');
+      var cat = this.getAttribute('data-cat');
+      document.querySelectorAll('.skc').forEach(function(c){ c.style.display=(cat==='all'||c.getAttribute('data-cat')===cat)?'':'none'; });
+    });
+  });
+})();
+
+/* ═══ OBSERVERS (Reveal + Progress + Counters + Lang) ═══ */
+(function(){
+  var progDone=false, counterDone=false, langDone=false;
+
+  // Reveal général
+  var rvObs = new IntersectionObserver(function(entries){
+    entries.forEach(function(e,i){
+      if(e.isIntersecting){
+        setTimeout(function(){ e.target.classList.add('vis'); }, i*40);
+        rvObs.unobserve(e.target);
+      }
+    });
+  }, {threshold:0.05});
+  document.querySelectorAll('.rv,.rvl,.rvr').forEach(function(el){ rvObs.observe(el); });
+
+  // Progress bars skills
+  var progObs = new IntersectionObserver(function(entries){
+    if(entries[0].isIntersecting && !progDone){
+      progDone = true;
+      document.querySelectorAll('.sk-pfill').forEach(function(b){
+        setTimeout(function(){ b.style.width = b.getAttribute('data-w')+'%'; }, 200);
+      });
+    }
+  }, {threshold:0.1});
+  var skEl = document.getElementById('skills');
+  if(skEl) progObs.observe(skEl);
+
+  // Counters
+  var cntObs = new IntersectionObserver(function(entries){
+    if(entries[0].isIntersecting && !counterDone){
+      counterDone = true;
+      document.querySelectorAll('.stat-n').forEach(function(el){
+        var target = parseInt(el.getAttribute('data-target')) || 0;
+        var step = Math.max(1, Math.floor(1600/target));
+        var cur2 = 0;
+        var id = setInterval(function(){
+          cur2++;
+          el.textContent = cur2;
+          if(cur2 >= target) clearInterval(id);
+        }, step);
+      });
+    }
+  }, {threshold:0.1});
+  var stEl = document.getElementById('stats');
+  if(stEl) cntObs.observe(stEl);
+
+  // Lang bars
+  var langObs = new IntersectionObserver(function(entries){
+    if(entries[0].isIntersecting && !langDone){
+      langDone = true;
+      document.querySelectorAll('.lf').forEach(function(b){
+        setTimeout(function(){ b.style.width = b.getAttribute('data-w')+'%'; }, 300);
+      });
+    }
+  }, {threshold:0.1});
+  var exEl = document.getElementById('experience');
+  if(exEl) langObs.observe(exEl);
+})();
+
+/* ═══ NAV ACTIVE + BACK TO TOP ═══ */
+(function(){
+  var secs = document.querySelectorAll('section[id]');
+  var links = document.querySelectorAll('.nav-links a');
+  var btt = document.getElementById('btt');
+  window.addEventListener('scroll', function(){
+    var cur = '';
+    secs.forEach(function(s){ if(window.scrollY >= s.offsetTop-80) cur=s.id; });
+    links.forEach(function(a){ a.classList.toggle('act', a.getAttribute('href')==='#'+cur); });
+    if(btt) btt.classList.toggle('show', window.scrollY>400);
+  }, {passive:true});
+})();
+
+/* ═══ DOWNLOAD CV ═══ */
+window.dlCV = function(){
+  /*
+    PRIORITÉ 1 : si vous placez votre CV PDF dans le même dossier que ce fichier HTML,
+    nommez-le "CV_Thomas_Junior.pdf" et il sera téléchargé directement.
+    PRIORITÉ 2 : fallback texte enrichi si le PDF est absent.
+  */
+  var pdfPath = 'CV_Thomas_Junior.pdf';
+
+  /* Test rapide : HEAD request pour vérifier l'existence du PDF */
+  var xhr = new XMLHttpRequest();
+  xhr.open('HEAD', pdfPath, true);
+  xhr.onload = function(){
+    if(xhr.status === 200){
+      var a = document.createElement('a');
+      a.href = pdfPath;
+      a.download = 'CV_Oyeniyi_Thomas_Junior.pdf';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    } else {
+      dlFallback();
+    }
+  };
+  xhr.onerror = function(){ dlFallback(); };
+  xhr.send();
+
+  function dlFallback(){
+    var txt = [
+      '╔══════════════════════════════════════════════╗',
+      '║    OYENIYI THOMAS JUNIOR — CURRICULUM VITAE  ║',
+      '╚══════════════════════════════════════════════╝',
+      '',
+      'Email   : Thomasjunior451@gmail.com',
+      'Tel     : +225 07-78-48-68-75',
+      'Lieu    : Abidjan, Côte d\'Ivoire',
+      'Permis  : Catégorie AB',
+      'Dispo   : Immédiate',
+      '',
+      '── FORMATION ───────────────────────────────────',
+      '2025-2026  M1 Big Data & Intelligence Artificielle (GI) — IUA [En cours]',
+      '2024-2025  Licence 3 MIAGE — IUA Abidjan [Obtenu]',
+      '2023-2024  Licence 2 MIAGE — IUA Abidjan',
+      '2022-2023  Licence 1 MIAGE — IUA Abidjan',
+      '2021-2022  Baccalauréat Série D — Collège Saint Foi',
+      '',
+      '── EXPÉRIENCES ─────────────────────────────────',
+      '09/2025 – Auj.   Stagiaire Service Informatique — IUA Abidjan',
+      '09/2021 – 07/26  Développeur Applications Freelance — Abidjan',
+      '06/2021 – Auj.   Assistant Logistique — Nutri Food Industry',
+      '',
+      '── CERTIFICATIONS ──────────────────────────────',
+      'Microsoft          Concepts de Machine Learning (juil. 2026)',
+      'UC Irvine          Essential English for University Success',
+      'Univ. Minnesota    Creative Problem Solving (nov. 2022)',
+      'Deep Teaching Sol. Apprendre comment apprendre (nov. 2022)',
+      '',
+      '── COMPÉTENCES ─────────────────────────────────',
+      'Web       : HTML5, CSS3, JavaScript, PHP, Laravel, Bootstrap, Tailwind, WordPress',
+      'Backend   : Java, Jakarta EE, REST, SOAP, Streamlit',
+      'Data / IA : Python, Pandas, NumPy, Scikit-learn, Random Forest',
+      'Bases BD  : MySQL, SQL Server, SQLite',
+      'Mobile    : Java Android, SQLite, XML UI',
+      'Outils    : Git, GitHub, VS Code, Eclipse, WAMP, Figma, Canva',
+      '',
+      '── LANGUES ─────────────────────────────────────',
+      'Français : Courant',
+      'Anglais  : Opérationnel (certifié UC Irvine)',
+      '',
+      '── PROJETS CLÉS ────────────────────────────────',
+      '• Gestion Agricole complète (Laravel, Filament, MySQL)',
+      '• Prédiction de performance entreprise (Python, Scikit-learn, Streamlit)',
+      '• Réservation tickets autocars (Laravel, PHP, MySQL)',
+      '• App mobile devis informatique (Java Android, SQLite)',
+      '• Paiement frais de scolarité (Laravel, MySQL)',
+      '• Site e-commerce (PHP, MySQL, JS)',
+      '• Gestion salon de coiffure (Laravel, JS)',
+    ].join('\n');
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(txt);
+    a.download = 'CV_Oyeniyi_Thomas_Junior.txt';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+};
+
+/* ═══ CONTACT FORM ═══ */
+(function(){
+  /* ---- Chargement EmailJS (SDK) ---- */
+  var ejsScript = document.createElement('script');
+  ejsScript.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
+  ejsScript.onload = function(){
+    /* Remplacez YOUR_PUBLIC_KEY par votre clé publique EmailJS */
+    if(window.emailjs) emailjs.init({ publicKey: 'YOUR_PUBLIC_KEY' });
+  };
+  document.head.appendChild(ejsScript);
+
+  /* ---- Helpers ---- */
+  function showFieldError(id, msg){
+    var el = document.getElementById(id);
+    if(!el) return;
+    el.style.borderColor = 'var(--r)';
+    var err = document.getElementById(id+'-err');
+    if(!err){
+      err = document.createElement('span');
+      err.id = id+'-err';
+      err.style.cssText = 'font-size:11px;color:var(--r);display:block;margin:-6px 0 8px 2px;font-family:var(--f-mono)';
+      el.insertAdjacentElement('afterend', err);
+    }
+    err.textContent = msg;
+  }
+  function clearFieldError(id){
+    var el = document.getElementById(id);
+    if(el) el.style.borderColor = '';
+    var err = document.getElementById(id+'-err');
+    if(err) err.remove();
+  }
+  ['cf-name','cf-email','cf-msg'].forEach(function(id){
+    var el = document.getElementById(id);
+    if(el) el.addEventListener('input', function(){ clearFieldError(id); });
+  });
+
+  window.sendMsg = function(){
+    var nameEl  = document.getElementById('cf-name');
+    var emailEl = document.getElementById('cf-email');
+    var msgEl   = document.getElementById('cf-msg');
+    var btn     = document.querySelector('.cf-btn');
+    var okEl    = document.getElementById('cf-ok');
+    if(!nameEl||!emailEl||!msgEl) return;
+
+    var n = nameEl.value.trim();
+    var e = emailEl.value.trim();
+    var m = msgEl.value.trim();
+    var valid = true;
+
+    /* Validation nom */
+    if(n.length < 2){
+      showFieldError('cf-name', '⚠ Nom trop court (min. 2 caractères)'); valid=false;
+    }
+    /* Validation email */
+    var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+    if(!emailRe.test(e)){
+      showFieldError('cf-email', '⚠ Adresse email invalide'); valid=false;
+    }
+    /* Validation message */
+    if(m.length < 10){
+      showFieldError('cf-msg', '⚠ Message trop court (min. 10 caractères)'); valid=false;
+    }
+    if(!valid) return;
+
+    /* Anti-spam : honeypot (champ caché rempli = bot) */
+    var hp = document.getElementById('cf-hp');
+    if(hp && hp.value){ return; }
+
+    btn.disabled = true;
+    btn.textContent = 'Envoi en cours…';
+
+    /* Tentative EmailJS */
+    if(window.emailjs && emailjs.send){
+      /*
+        Dans EmailJS, créez un template avec les variables :
+        {{from_name}}, {{from_email}}, {{message}}
+        Remplacez YOUR_SERVICE_ID et YOUR_TEMPLATE_ID ci-dessous.
+      */
+      emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
+        from_name:  n,
+        from_email: e,
+        message:    m,
+        to_email:   'Thomasjunior451@gmail.com'
+      }).then(function(){
+        onSuccess();
+      }, function(err){
+        console.warn('EmailJS error:', err);
+        fallbackMailto(n, e, m);
+      });
+    } else {
+      /* Fallback : mailto si EmailJS pas encore chargé */
+      fallbackMailto(n, e, m);
+    }
+
+    function fallbackMailto(name, email, msg){
+      var s = encodeURIComponent('Contact Portfolio — '+name);
+      var b = encodeURIComponent('De: '+name+'\nEmail: '+email+'\n\n'+msg);
+      window.open('mailto:Thomasjunior451@gmail.com?subject='+s+'&body='+b);
+      onSuccess();
+    }
+    function onSuccess(){
+      if(okEl){ okEl.style.display='block'; okEl.textContent='✓ Message envoyé ! Je vous répondrai très bientôt.'; }
+      btn.disabled = false;
+      btn.textContent = 'Envoyer le message →';
+      [nameEl, emailEl, msgEl].forEach(function(el){ el.value=''; });
+    }
+  };
+})();
+
+}); // END load
+</script>
+</body>
+</html>
